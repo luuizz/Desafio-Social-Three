@@ -1,0 +1,107 @@
+/* Reset do CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --text-color: #BB99DD;
+    --body-bg-color: #FAF7FD;
+}
+
+
+body{
+    background-color: var(--body-bg-color);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+body *{
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+#container {
+    width: 100%;
+    max-width: 580px;
+    margin: 120px auto 0;
+    padding: 0 44px;
+}
+
+/* Profile */
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--text-color);
+    padding: 4px;
+}
+
+
+
+#profile p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+
+
+/* Links */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 33px 44px 0;
+    align-items: center;
+}
+
+.btn-link{
+    border: 2px solid var(--text-color);
+    border-radius: 4px;
+    width: 326px;
+    height: 49px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.btn-link a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    width: 100%;
+}
+
+/* Links sociais */
+.social-media ul{
+    list-style: none;
+    display: flex;
+}
+
+.social-media {
+    flex-direction: row;
+}
+
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    padding: 29px 0;
+}
+
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
